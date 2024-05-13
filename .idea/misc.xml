@@ -11,6 +11,8 @@
         <option value="$PROJECT_DIR$/02-primary/pom.xml" />
         <option value="$PROJECT_DIR$/02-lazy-initialization/pom.xml" />
         <option value="$PROJECT_DIR$/02-bean-scopes/pom.xml" />
+        <option value="$PROJECT_DIR$/02-bean-life-cycle/pom.xml" />
+        <option value="$PROJECT_DIR$/02-bean-scope/pom.xml" />
       </list>
     </option>
   </component>

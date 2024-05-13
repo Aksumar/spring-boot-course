@@ -11,14 +11,20 @@
         <module name="demo (1)" />
         <module name="component-scanning" />
         <module name="qualifier" />
-        <module name="initialization" />
+        <module name="bean-scopes (1)" />
         <module name="demo" />
+        <module name="bean-scopes" />
         <module name="primary" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="initialization" target="19" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="bean-scopes" options="-parameters" />
+      <module name="bean-scopes (1)" options="-parameters" />
       <module name="component-scanning" options="-parameters" />
       <module name="demo" options="-parameters" />
       <module name="demo (1)" options="-parameters" />
