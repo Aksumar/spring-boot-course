@@ -13,6 +13,7 @@
         <option value="$PROJECT_DIR$/02-bean-scopes/pom.xml" />
         <option value="$PROJECT_DIR$/02-bean-life-cycle/pom.xml" />
         <option value="$PROJECT_DIR$/02-bean-scope/pom.xml" />
+        <option value="$PROJECT_DIR$/02-bean-config/pom.xml" />
       </list>
     </option>
   </component>

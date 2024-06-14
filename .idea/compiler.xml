@@ -12,6 +12,7 @@
         <module name="component-scanning" />
         <module name="qualifier" />
         <module name="bean-scopes (1)" />
+        <module name="bean-lifecycle" />
         <module name="demo" />
         <module name="bean-scopes" />
         <module name="primary" />
@@ -23,6 +24,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="bean-lifecycle" options="-parameters" />
       <module name="bean-scopes" options="-parameters" />
       <module name="bean-scopes (1)" options="-parameters" />
       <module name="component-scanning" options="-parameters" />
